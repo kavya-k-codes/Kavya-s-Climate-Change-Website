@@ -1,0 +1,180 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #bbe0af; 
+  text-align:center;
+ background-image: linear-gradient( #b09d8f, #bbe0af);
+  font-family: 'Ibarra Real Nova', serif;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: #1c130d;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-shadow: 2px 2px 5px white;
+}
+
+h2{
+  margin-left:5em;
+  margin-right: 5em;
+}
+
+h3{
+  margin-top: 1em;
+}
+
+main{
+  margin-left: 2em;
+  margin-right: 2em;
+  padding: 10px;
+}
+
+#heading2{
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+/* STYLE IMAGES */
+img {
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* STYLE NAV BAR */
+nav {
+  list-style-type: none;
+  background-color: #0e5714;
+  overflow:hidden;
+  padding: 1em;
+}
+ul {
+  list-style-type: none;
+}
+li{
+  display: inline;
+}
+
+li a{
+  text-decoration: none;
+  color: white;
+  padding: 2em;
+}
+li a:hover{
+  background-color: #b0f5b5;
+  color: #0e5714;
+}
+
+
+/* Styling the fact button and corresponding text*/
+
+.factGen{
+  background-color: #f2f2ce;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 30px;
+  margin-left: 30%;
+  margin-right: 30%;
+  font-family: 'Roboto Slab', serif;
+  border-color: #0e5714;
+  border-style: dashed;
+}
+
+#factBtn{
+  margin-top: 1em;
+  padding: 0.9em;
+  color: white;
+  background-color: #0e5714;
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  border-radius: 10%;
+}
+
+#factBtn:hover {
+   background-color: #b0f5b5;
+  color: #0e5714;
+}
+
+#fact{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 20px;
+  line-height: 0.9cm;
+}
+
+/*for the about page to align the image to the left and the text to the right*/
+
+.textAlignImg {
+  max-width: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 20px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+/*for the action page headers to align into 2 columns*/
+mark{
+  background-color: #a2bd99;
+}
+
+/*for the action page to align the text into 2 columns*/
+.txtAlign {
+  max-width: 40%;
+  display: inline;
+  float:left;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 3em;
+  font-size: 20px;
+}
+
+/*to style the script generator */
+
+#actionTxt{
+  font-size:20px;
+  line-height: 0.7cm;
+}
+
+ .scriptDes {
+   background: #f2f2ce;
+   border-radius: 10px;
+   padding: 16px;
+   margin-top: 20px;
+   margin-right:20%;
+   margin-left:20%;
+   text-align: center;
+   line-height: 0.75cm;
+   font-size: 17px;
+   font-family: 'Roboto Slab', serif;
+   border-color: #0e5714;
+   border-style: dashed;
+ }
+
+#scriptBtn {
+  margin-top: 1em;
+  padding: 0.9em;
+  color: white;
+  background-color: #0e5714;
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  border-radius: 10%;
+}
+
+#scriptBtn:hover {
+   background-color: #b0f5b5;
+  color: #0e5714;
+}
+
+#scriptReturned {
+  margin-top: 1em;
+  margin-bottom: 2em;
+  margin-right: 20%;
+  margin-left: 20%;
+  font-size:20px;
+  line-height: 0.7cm;
+}
